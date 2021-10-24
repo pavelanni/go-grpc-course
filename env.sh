@@ -1,0 +1,7 @@
+export DB_USERNAME="postgres"
+export DB_PASSWORD="postgres"
+export DB_DB="postgres"
+export DB_TABLE="postgres"
+export DB_HOST="127.0.0.1"
+export DB_PORT="5432"
+export DB_SSL_MODE="disable"
