@@ -50,7 +50,7 @@ func (s Service) InstertRocket(ctx context.Context, rkt Rocket) (Rocket, error) 
 }
 
 // DeleteRocket removes a rocket from the store
-func (s Service) DeleteRocket(id string) error {
+func (s Service) DeleteRocket(ctx context.Context, id string) error {
 	err := s.Store.DeleteRocket(id)
 	if err != nil {
 		return err
